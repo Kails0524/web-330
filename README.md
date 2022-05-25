@@ -2,4 +2,4 @@
 ## Contributors
 * Professor Kumar 
 * Kailee Stephens
-JavaScript 2 Repository
+
