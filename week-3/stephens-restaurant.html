@@ -111,12 +111,14 @@
     <div class="assign-container card-container-menu">   
         <div class="card-title">Order Summary</div>
         <div class="card-content assign-results-text" id="order-total"></div>
-      </div>
+    </div>
     
-   
+   <!--beginning of JavaScript-->
     <script type="module"> 
-   
+      //This is the script from the assignment instructions
+      //It doesn't give the correct output
      // Importing classes from the index.js file.
+
    import { Bill, Beverage, Appetizer, MainCourse, Dessert } from './index.js';
     console.log("Inline module!");
 
@@ -143,13 +145,11 @@
           bill.addBeverage (new Beverage(beverage.name,beverage.value))
        }
      }
-
    for (let appetizer of appetizers){
      if (appetizer.checked){
        bill.addAppetizer(new Appetizer(appetizer.name,appetizer.price))
      }
    }
-
     for (let mainCourse of mainCourses){
 
       if (mainCourse.checked){ 
@@ -157,17 +157,15 @@
         
       }
     }
-
     for (dessert of desserts){
       if (dessert.checked){
         bill.addDessert(new Dessert(dessert.name, dessert.value))
       }
     }
-
     // Display string with the total price information in the order-total ID dive.
     let orderTotal = document.getElementById("order-total")
           orderTotal.innerHTML += `Your order total is ${bill.getTotal()}`
-}
+    }
     </script>
    
   </body>
