@@ -5,9 +5,10 @@
     Description: Global stylesheet
  */
 
- body {
+body {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
   }
+
 
 #container {
     margin-top: 50px;
@@ -34,6 +35,10 @@
     Exhibit D.
  */
 .assign-container {
+    
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 0px;
     padding: 10px;
 }
 
@@ -85,6 +90,8 @@
     width: 100%;
 }
 
+
+
 /* styling for card */
 .card-container {
       background-color: var(--card-background-color);
@@ -96,9 +103,9 @@
 }
 
 /* use margin left to remove the return home link to under the second card. */
-.return-home {
+/* .return-home {
 margin-left: 420px;
-}
+} */
 
 /* Styling for button */
 .btn {
