@@ -52,7 +52,9 @@
                   name="txtFoodItem"
                 />
                 <br />
-                <span id="foodList"></span>
+                <span id="foodList">
+                    <i>(EX: Egg, Apple, Hamburger, Fries, Banana, Soda)</i>
+                </span>
               </div>
               <div class="form-field">
                 <!-- Button for active function  -->
@@ -136,7 +138,7 @@ input.addEventListener("keyup", (event) => {
 
  const foodList = CalorieConverter.data;
 
- let foodListData = `<i>(EX:`;
+ let foodListData = `<i>(EX: Egg, Apple, Hamburger, Fries, Banana, Soda`;
 
   for ( let foodName of foodList) {
        foodListData += foodName.name + ", ";
