@@ -1,4 +1,4 @@
-//js for calorie converter assignment 4.2
+
 import { FoodModel } from "./food-model.js";
 
 export class CalorieConverter {
