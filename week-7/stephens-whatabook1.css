@@ -7,7 +7,7 @@
 
  body{
     font-family: 'Oswald', Verdana, Arial, sans-serif;
-  }
+}
 
 
 #container {
@@ -30,7 +30,10 @@
     float: right;
 }
 
-/**Styles added per the instructions in the Web 330 HTML, CSS, and JavaScript Requirements document;Exhibit D.*/
+/**
+    Styles added per the instructions in the Web 330 HTML, CSS, and JavaScript Requirements document;
+    Exhibit D.
+ */
 .assign-container {
     
     margin-top: 50px;
@@ -49,13 +52,16 @@
     font-size: 28px;
 }
 
-/**Styles added per the requirements in the Web 330 HTML, CSS, and JavaScript Requirements document.*/
+/**
+    Styles added per the requirements in the Web 330 HTML, CSS, and JavaScript Requirements document.
+ */
 .app-header {
     text-align: center;
     font-weight: 400;
     border: none;
     color: inherit;
     background-color: inherit;
+    
 }
 
 .return-home {
@@ -87,7 +93,8 @@
 
 
 
-/* card styling */
+/* styling for card */
+
 
 .card-container-menu{
        background-color: var(--card-background-color);
@@ -98,6 +105,9 @@
     margin-bottom:10px;
     margin-right:0px;
     margin-left:0px;
+    
+ 
+
 }
 
 .card-container {
@@ -151,6 +161,9 @@ h4 {
   padding: 10px;
   border: 1px solid var(--heading-border-color);
 }
+
+
+
 #foodList {
   margin-left: 30px;
   float: right;
